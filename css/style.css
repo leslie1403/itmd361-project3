@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+nav {
+  text-align: center;
+  background-color: forestgreen;
+}
+
+#navigation ul{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#navigation ul li {
+  display: inline-block;
+  float: left;
+  margin: 0px;
+}
+
+#navigation ul li a {
+  display: inline-block;
+  color: white;
+  font-family: "Merriweather", "Arial", serif;
+  text-align: center;
+  width: 100px;
+  padding: 10px 10px 10px 10px;
+}
+
+#navigation ul li a:hover{
+  background-color: gray;
+  color:black;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+h1{
+   font-family: "Georgia", "Arial", serif;
+   text-align: center;
+}
+
+h3{
+  font-family: "Georgia", "Arial", serif;
+  font-size: 115%;
+  text-decoration: underline;
+}
+
+h4{
+  font-family: "Georgia", "Arial", serif;
+  font-size: 110%;
+  font-style: italic;
+}
+
+ul,li,p{
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+body{
+  background-color: lightgreen;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#contact{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+}
+
+#iitLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  float: right;
+}
+
+#education{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+}
+
+#experience{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+}
+
+#skills{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+}
+
+#history{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+#hobby{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+#projects{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+#video{
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bunny{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  float: left;
+  padding-right: 2em;
+  max-height: 200px;
+  max-width: 180px;
+}
+
+#description{
+  clear: both;
+  padding-top: 1em;
+}
+
+#chicago-history{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+#chicago-history h3{
+  text-align: center;
+}
+
+#favorite{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+#favorite h3{
+  text-align: center;
+}
+
+#photography{
+  background-color: whitesmoke;
+  padding: 10px 2.5% 10px 2.5%;
+  border-radius: 0px 10px;
+  margin-top: 10px;
+  font-family: "Georgia", "Arial",serif;
+  font-size: 110%;
+}
+
+#photography h3{
+  text-align: center;
+}
+
+#skyline{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  float:right;
+}
