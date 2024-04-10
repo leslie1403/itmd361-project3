@@ -34,9 +34,9 @@ function init(){
     title: "Parking for Adler",
   });
 
-  marker.setMap(adler);
-  lakeMarker.setMap(lake);
-  parkingMarker.setMap(parking);
+  marker.setMap(myMap);
+  lakeMarker.setMap(myMap);
+  parkingMarker.setMap(myMap);
 
   var contentString = '<h1>Adler Planetarium</h1><p>One of the museums in Chicago, holds many events such as the most recent being the Solar Eclipse watch viewing party.</p>';
 
