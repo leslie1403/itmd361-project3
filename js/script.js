@@ -68,7 +68,7 @@ function init(){
     fillOpacity: 0.35,
   });
 
-  shape.setMap(parking);
+  shape.setMap(myMap);
 }
 
 google.maps.event.addDomListener(window, 'load', init);
