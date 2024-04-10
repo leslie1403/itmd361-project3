@@ -39,8 +39,7 @@ function init(){
     position:adler,
     content: contentString
    });
-  v
-  ar contentStringLake = '<h1>Lake Michigan</h1><p>One of the five great lakes, located East of Chicago. Provides the city with plenty of beaches and summer activities.</p>';
+  var contentStringLake = '<h1>Lake Michigan</h1><p>One of the five great lakes, located East of Chicago. Provides the city with plenty of beaches and summer activities.</p>';
 
   var infowindowLake = new google.maps.InfoWindow({
     position:lake,
