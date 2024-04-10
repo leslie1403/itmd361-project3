@@ -51,21 +51,22 @@ function init(){
       infowindowLake.open(myMap, lakeMarker);
     });
 
-  const flightPlanCoordinates = [
+  const parkingCoor = [
     { lat: 41.866078, lng: -87.609836 },
     { lat: 41.866078, lng: -87.607684},
     { lat: 41.864790, lng: -87.608730 },
   ];
 
-  const flightPath = new google.maps.Polyline({
-    path: flightPlanCoordinates,
-    geodesic: true,
-    strokeColor: "red",
-    strokeOpacity: 1.0,
+  const shape = new google.maps.Polygon({
+    path: parkingCoor,
+    strokeColor: "#FF0000",
+    strokeOpacity: 0.8,
     strokeWeight: 2,
+    fillColor: "#FF0000",
+    fillOpacity: 0.35,
   });
 
-  flightPath.setMap(map);
+  shape.setMap(el);
 
 }
 
