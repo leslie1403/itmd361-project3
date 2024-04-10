@@ -5,7 +5,7 @@ function init(){
   var lake = new google.maps.LatLng(41.866592, -87.605208);
   var mapOptions = {
     center: adler,
-    zoom: 15,
+    zoom: 18,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -19,7 +19,7 @@ function init(){
     map: myMap,
     title: "Adler Planetarium",
     animation: google.maps.Animation.BOUNCE,
-    //icon: 'star.png'
+    icon: 'star.png'
   });
 
   marker.setMap(adler);
@@ -28,7 +28,7 @@ function init(){
     position: lake,
     map: myMap,
     title: "Lake Michigan",
-    //icon: 'star.png'
+    icon: 'star.png'
   });
 
   marker.setMap(lake);
@@ -39,6 +39,7 @@ function init(){
     position:adler,
     content: contentString
    });
+
   var contentStringLake = '<h1>Lake Michigan</h1><p>One of the five great lakes, located East of Chicago. Provides the city with plenty of beaches and summer activities.</p>';
 
   var infowindowLake = new google.maps.InfoWindow({
@@ -50,7 +51,7 @@ function init(){
       infowindow.open(myMap, marker);
     });
    google.maps.event.addListener(lakeMarker, 'mouseover', function() {
-      infowindow.open(myMap, lakeMarker);
+      infowindowLake.open(myMap, lakeMarker);
     });
 
 
