@@ -7,7 +7,7 @@ function init(){
   var mapOptions = {
     center: adler,
     zoom: 17,
-    mapTypeId: google.maps.MapTypeId.MAP,
+    mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
     }
@@ -29,7 +29,7 @@ function init(){
   });
 
   var parkingMarker = new google.maps.Marker({
-    position: lake,
+    position: parking,
     map: myMap,
     title: "Parking for Adler",
   });
