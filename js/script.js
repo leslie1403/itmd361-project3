@@ -19,7 +19,7 @@ function init(){
     map: myMap,
     title: "Adler Planetarium",
     animation: google.maps.Animation.BOUNCE,
-    icon: 'star.png'
+    //icon: 'star.png'
   });
 
   marker.setMap(adler);
@@ -27,8 +27,8 @@ function init(){
   var lakeMarker = new google.maps.Marker({
     position: lake,
     map: myMap,
-    title: "Adler Planetarium",
-    icon: 'star.png'
+    title: "Lake Michigan",
+    //icon: 'star.png'
   });
 
   marker.setMap(lake);
