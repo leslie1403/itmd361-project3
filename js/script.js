@@ -7,4 +7,5 @@ function init() {
       //zoom:8 
     //});
 }
-  google.maps.event.addDomListener(window,'load', init);
+
+google.maps.event.addDomListener(window,'load', init);
