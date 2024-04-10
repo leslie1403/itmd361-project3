@@ -52,14 +52,14 @@ function init(){
       infowindowLake.open(myMap, lakeMarker);
     });
 
-  const parkingCoor = [
+  var parkingCoor = [
     { lat: 41.866078, lng: -87.609836 },
     { lat: 41.866078, lng: -87.607684},
     { lat: 41.864790, lng: -87.608730},
     { lat: 41.866078, lng: -87.609836 }
   ];
 
-  const shape = new google.maps.Polygon({
+  var shape = new google.maps.Polygon({
     path: parkingCoor,
     strokeColor: "#FF0000",
     strokeOpacity: 0.8,
