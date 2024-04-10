@@ -206,6 +206,6 @@ body{
 #canvas {
   width: 700px;
   height: 500px;
-  background-color: #ccc;
+  background-color: blue;
   margin: 30px auto;  
 }
