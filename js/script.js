@@ -66,7 +66,7 @@ function init(){
     fillOpacity: 0.35,
   });
 
-  shape.setMap(el);
+  shape.setMap(parkingCoor);
 
 }
 
