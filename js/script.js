@@ -19,7 +19,7 @@ function init(){
     map: myMap,
     title: "Adler Planetarium",
     animation: google.maps.Animation.BOUNCE,
-    //icon: 'star.png'
+    icon: 'star.png'
   });
 
   var lakeMarker = new google.maps.Marker({
