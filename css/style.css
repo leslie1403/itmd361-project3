@@ -196,3 +196,6 @@ body{
   width: 20%;
   float:right;
 }
+#map {
+  height: 100%;
+}
