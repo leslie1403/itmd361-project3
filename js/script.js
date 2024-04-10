@@ -3,10 +3,11 @@ function init(){
   var el = document.getElementById('canvas');
   var adler = new google.maps.LatLng(41.8661, -87.6066);
   var lake = new google.maps.LatLng(41.866592, -87.605208);
+  var parking = new google.maps.LatLng(41.865450, -87.608704);
   var mapOptions = {
     center: adler,
     zoom: 16,
-    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    mapTypeId: google.maps.MapTypeId.MAP,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
     }
@@ -54,7 +55,8 @@ function init(){
   const parkingCoor = [
     { lat: 41.866078, lng: -87.609836 },
     { lat: 41.866078, lng: -87.607684},
-    { lat: 41.864790, lng: -87.608730 },
+    { lat: 41.864790, lng: -87.608730},
+    { lat: 41.866078, lng: -87.609836 }
   ];
 
   const shape = new google.maps.Polygon({
@@ -66,8 +68,7 @@ function init(){
     fillOpacity: 0.35,
   });
 
-  shape.setMap(lake);
-
+  shape.setMap(parking);
 }
 
 google.maps.event.addDomListener(window, 'load', init);
