@@ -6,7 +6,7 @@ function init(){
   var parking = new google.maps.LatLng(41.865450, -87.608704);
   var mapOptions = {
     center: adler,
-    zoom: 16,
+    zoom: 17,
     mapTypeId: google.maps.MapTypeId.MAP,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -28,8 +28,15 @@ function init(){
     title: "Lake Michigan",
   });
 
+  var parkingMarker = new google.maps.Marker({
+    position: lake,
+    map: myMap,
+    title: "Parking for Adler",
+  });
+
   marker.setMap(adler);
   lakeMarker.setMap(lake);
+  parkingMarker.setMap(parking);
 
   var contentString = '<h1>Adler Planetarium</h1><p>One of the museums in Chicago, holds many events such as the most recent being the Solar Eclipse watch viewing party.</p>';
 
