@@ -25,7 +25,7 @@ function init(){
     position: lake,
     map: myMap,
     title: "Lake Michigan",
-    //icon: 'star.png'
+    icon: 'star.png'
   });
 
   marker.setMap(adler);

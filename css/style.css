@@ -204,8 +204,8 @@ body{
   overflow: hidden;
 }
 #canvas {
-  width: 70%px;
-  height: 50%px;
+  width: 70%;
+  height: 50%;
   background-color: blue;
   margin: 100px auto;  
 }
