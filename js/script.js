@@ -51,6 +51,21 @@ function init(){
       infowindowLake.open(myMap, lakeMarker);
     });
 
+  const flightPlanCoordinates = [
+    { lat: 41.866078, lng: -87.609836 },
+    { lat: 41.866078, lng: -87.607684},
+    { lat: 41.864790, lng: -87.608730 },
+  ];
+
+  const flightPath = new google.maps.Polyline({
+    path: flightPlanCoordinates,
+    geodesic: true,
+    strokeColor: "red",
+    strokeOpacity: 1.0,
+    strokeWeight: 2,
+  });
+
+  flightPath.setMap(map);
 
 }
 
