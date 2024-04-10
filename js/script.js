@@ -1,7 +1,7 @@
 function init(){
   //alert('it works');
   var el = document.getElementById('canvas');
-  var adlerr = new google.maps.LatLng(41.8661, -87.6066);
+  var adler = new google.maps.LatLng(41.8661, -87.6066);
   var lake = new google.maps.LatLng(41.866592, -87.605208);
   var mapOptions = {
     center: adler,
