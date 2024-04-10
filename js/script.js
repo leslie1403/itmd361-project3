@@ -36,8 +36,16 @@ function init(){
   var contentString = '<h1>Adler Planetarium</h1><p>One of the museums in Chicago, holds many events such as the most recent being the Solar Eclipse watch viewing party.</p>';
 
   var infowindow = new google.maps.InfoWindow({
-      content: contentString
-    });
+    position:adler,
+    content: contentString
+   });
+  v
+  ar contentStringLake = '<h1>Lake Michigan</h1><p>One of the five great lakes, located East of Chicago. Provides the city with plenty of beaches and summer activities.</p>';
+
+  var infowindowLake = new google.maps.InfoWindow({
+    position:lake,
+    content: contentStringLake
+   });
 
   google.maps.event.addListener(marker, 'mouseover', function() {
       infowindow.open(myMap, marker);

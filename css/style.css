@@ -197,9 +197,9 @@ body{
   float:right;
 }
 #wrapper {
-  width: 850px;
-  height: 600px;
-  background-color: #c00;
+  width: 85%x;
+  height: 60%px;
+  background-color: darkolivegreen;
   margin:0 auto;
   overflow: hidden;
 }
@@ -207,5 +207,5 @@ body{
   width: 700px;
   height: 500px;
   background-color: blue;
-  margin: 30px auto;  
+  margin: 100px auto;  
 }
