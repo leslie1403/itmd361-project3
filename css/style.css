@@ -214,8 +214,6 @@ body{
   body {
     padding: 0.5rem;
   }
-
-  }
   nav {
     margin-bottom: 0rem;
   }
@@ -232,5 +230,4 @@ body{
   h1, h2, h3, h4, p {
     font-size: 1.25em;
   }
-
 }
